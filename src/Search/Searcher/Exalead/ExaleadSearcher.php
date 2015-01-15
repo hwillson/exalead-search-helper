@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * exalead-search-helper
+ * https://github.com/hwillson/exalead-search-helper
+ *
+ * @author     Hugh Willson, Octonary Inc.
+ * @copyright  Copyright (c)2015 Hugh Willson, Octonary Inc.
+ * @license    http://opensource.org/licenses/MIT
+ */
+
 require_once 'Search/Exception/IllegalArgumentException.php';
 require_once 'Search/Utility/Logger.php';
 require_once 'Search/Config/SearchConfig.php';
@@ -9,8 +18,6 @@ require_once 'Zend/Http/Client.php';
 
 /**
  * Class used to perform searches.
- *
- * @version  $Id:$
  */
 class ExaleadSearcher implements Searcher {
 

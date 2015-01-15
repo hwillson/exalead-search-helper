@@ -1,9 +1,16 @@
 <?php
 
 /**
- * Represents classes used to execute searches.
+ * exalead-search-helper
+ * https://github.com/hwillson/exalead-search-helper
  *
- * @version  $Id:$
+ * @author     Hugh Willson, Octonary Inc.
+ * @copyright  Copyright (c)2015 Hugh Willson, Octonary Inc.
+ * @license    http://opensource.org/licenses/MIT
+ */
+
+/**
+ * Represents classes used to execute searches.
  */
 interface Searcher {
 

@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * exalead-search-helper
+ * https://github.com/hwillson/exalead-search-helper
+ *
+ * @author     Hugh Willson, Octonary Inc.
+ * @copyright  Copyright (c)2015 Hugh Willson, Octonary Inc.
+ * @license    http://opensource.org/licenses/MIT
+ */
+
 require_once 'Search/Request/SearchRequest.php';
 require_once 'Search/Request/Exalead/Model/RequestEnvelope.php';
 require_once 'Search/Request/Exalead/Model/Requests.php';
@@ -9,8 +18,6 @@ require_once 'Search/Utility/Logger.php';
 
 /**
  * Exalead search criteria container.
- *
- * @version  $Id:$
  */
 class ExaleadSearchRequest implements SearchRequest {
 
